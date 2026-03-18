@@ -16,7 +16,7 @@
 
 ---
 
-Brotu é uma plataforma de criação de conteúdo com IA para criadores e marcas. Com fluxos visuais intuitivos, você conecta modelos de imagem, vídeo e texto — como DALL-E, Flux 2, Sora, Wan 2.6 e os exclusivos **Nano Banana** — para automatizar campanhas completas sem escrever uma linha de código. De imagens de produto a vídeos para redes sociais, tudo em um único pipeline.
+Brotu é uma plataforma de criação de conteúdo com IA para criadores e marcas. Com fluxos visuais intuitivos, você conecta modelos de imagem, vídeo e texto, como Chat-gpt-imagen, Flux 2, Sora, Wan 2.6, **Nano Banana** (pro & 2), para automatizar campanhas completas sem escrever uma linha de código. De imagens de produto a vídeos para redes sociais, tudo em um único fluxo.
 
 Este repositório contém Claude Code skills que replicam os fluxos internos da Brotu, incluindo o sistema de otimização de prompts usado em produção.
 
