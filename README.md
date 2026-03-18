@@ -1,9 +1,6 @@
 <div align="center">
 
-[![Instagram](https://img.shields.io/badge/@brotu.app-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/brotu.app/)
-[![TikTok](https://img.shields.io/badge/@brotu.app-000000?style=flat&logo=tiktok&logoColor=white)](https://www.tiktok.com/@brotu.app)
-[![X](https://img.shields.io/badge/@brotuApp-000000?style=flat&logo=x&logoColor=white)](https://x.com/brotuApp)
-[![LinkedIn](https://img.shields.io/badge/brotuapp-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/brotuapp)
+[![Instagram](https://img.shields.io/badge/@brotu.app-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/brotu.app/) [![TikTok](https://img.shields.io/badge/@brotu.app-000000?style=flat&logo=tiktok&logoColor=white)](https://www.tiktok.com/@brotu.app) [![X](https://img.shields.io/badge/@brotuApp-000000?style=flat&logo=x&logoColor=white)](https://x.com/brotuApp) [![LinkedIn](https://img.shields.io/badge/brotuapp-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/brotuapp)
 
 <br />
 
@@ -33,19 +30,9 @@ Otimiza prompts brutos para modelos de geração de imagem e vídeo usando o sis
 
 - **Tier 1** — Reescrita visual completa: sujeito, ambiente, composição, iluminação, paleta, mood
 - **Tier 2** — Detecção de estilo + sufixo de qualidade (thumbnail, photo, 3D, UGC, cinematic...)
-- **Tier 3** — Formatação específica por modelo (Flux 2, Midjourney, DALL-E, Sora, Veo, Wan, Runway, Stable Diffusion...)
+- **Tier 3** — Formatação específica por modelo (Nano Banana · Nano Banana 2 · Nano Banana Pro · Flux 2 · Midjourney · DALL-E · Sora · Veo · Wan · Runway · Stable Diffusion...)
 
 Suporta imagens de referência, preservação de identidade visual e copy de marketing com tom configurável.
-
-#### ⭐ Modelos em destaque: Nano Banana
-
-| Modelo              | Créditos      | Resolução    | Melhor para                                            |
-| ------------------- | ------------- | ------------ | ------------------------------------------------------ |
-| **Nano Banana**     | 3 / imagem    | 1K           | Geração rápida, volume alto, iterações                 |
-| **Nano Banana 2**   | 8–18 / imagem | 1K · 2K · 4K | Qualidade escalável, suporta imagem de referência      |
-| **Nano Banana Pro** | 25 / imagem   | 1K           | Máxima qualidade, resultados finais e entregas premium |
-
-Os modelos Nano Banana são os modelos proprietários da Brotu — otimizados para prompts em português, resultados consistentes em campanhas e integração nativa com os pipelines da plataforma.
 
 ---
 
