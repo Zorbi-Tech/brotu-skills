@@ -1,3 +1,5 @@
+![Brotu Skills](./header.webp)
+
 # Brotu Skills
 
 Claude Code skills que replicam os fluxos internos da plataforma Brotu.
@@ -31,3 +33,14 @@ Ou referencie diretamente em seu `CLAUDE.md`:
 ```
 
 Então invoque com `/optimize-prompt` no Claude Code.
+
+---
+
+<div align="center">
+
+[![Instagram](https://img.shields.io/badge/@brotu.app-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/brotu.app/)
+[![TikTok](https://img.shields.io/badge/@brotu.app-000000?style=flat&logo=tiktok&logoColor=white)](https://www.tiktok.com/@brotu.app)
+[![X](https://img.shields.io/badge/@brotuApp-000000?style=flat&logo=x&logoColor=white)](https://x.com/brotuApp)
+[![LinkedIn](https://img.shields.io/badge/brotuapp-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/brotuapp)
+
+</div>
