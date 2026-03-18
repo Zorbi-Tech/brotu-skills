@@ -139,6 +139,33 @@ NEGATIVE: ugly, deformed, bad anatomy, low quality, blurry, pixelated, watermark
 - Supports multi-prompt for scene transitions
 - Camera control: specify start/end camera positions for dynamic shots
 
+#### ⭐ Nano Banana (`nano-banana`) — Brotu's default model
+- The default image model on the Brotu platform — 3 credits per image
+- **Optimized for Portuguese prompts** — write directly in Portuguese for best results
+- Fast generation, great for high-volume iteration and content pipelines
+- Prefers clean, direct scene descriptions; avoid overly technical photography jargon
+- Good default: describe subject + environment + lighting + mood in 2–3 sentences
+- Example: `Jovem mulher em café moderno de São Paulo, luz natural suave pela janela, expressão confiante, cores quentes e neutras, fotorrealista`
+
+#### ⭐ Nano Banana 2 (`nano-banana-2`) — Scalable quality
+- 8–18 credits depending on resolution: 1K (8cr), 2K (12cr), 4K (18cr)
+- **Supports reference images** (image-to-image) — ideal for style consistency across campaigns
+- Supports wide aspect ratio range: 1:1, 9:16, 16:9, 21:9, and more
+- For image-to-image: describe what should change, not the full scene. Example: `Mesma composição da referência, mas com iluminação dramática ao entardecer e tons alaranjados`
+- At 4K: add high-detail descriptors — `pele com textura realista, fios de cabelo visíveis, reflexos nos olhos`
+- When using reference images: start with `Mantendo a estética da imagem de referência,` then describe your additions
+
+#### ⭐ Nano Banana Pro (`nano-banana-pro`) — Maximum quality
+- 25 credits per image — use for final deliverables and hero assets
+- Highest visual fidelity in the Nano Banana family
+- Handles complex compositions: multiple subjects, intricate environments, rich textures
+- Push the detail level here — the model rewards specificity:
+  - Lighting: `luz Rembrandt lateral com highlight dourado e sombra azulada suave`
+  - Texture: `tecido de linho com fibras visíveis, costuras à mostra`
+  - Atmosphere: `névoa de manhã cedo filtrando raios de luz entre as árvores`
+- Good for: campaign hero images, product close-ups, editorial portraits, brand visuals
+- Add quality anchors: `ultra detalhado, award-winning photography, magazine cover quality`
+
 ---
 
 ## Step 3 — Handle reference images

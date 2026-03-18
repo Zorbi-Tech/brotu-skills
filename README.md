@@ -1,8 +1,29 @@
-![Brotu Skills](./header.webp)
+<div align="center">
+
+[![Instagram](https://img.shields.io/badge/@brotu.app-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/brotu.app/)
+[![TikTok](https://img.shields.io/badge/@brotu.app-000000?style=flat&logo=tiktok&logoColor=white)](https://www.tiktok.com/@brotu.app)
+[![X](https://img.shields.io/badge/@brotuApp-000000?style=flat&logo=x&logoColor=white)](https://x.com/brotuApp)
+[![LinkedIn](https://img.shields.io/badge/brotuapp-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/brotuapp)
+
+<br />
+
+<img src="./header.webp" width="680" alt="Brotu — Crie conteúdo com IA" />
+
+<br />
 
 # Brotu Skills
 
-Claude Code skills que replicam os fluxos internos da plataforma Brotu.
+**[🌐 brotu.app](https://www.brotu.app)** — Crie conteúdo com IA em minutos
+
+</div>
+
+---
+
+Brotu é uma plataforma de criação de conteúdo com IA para criadores e marcas. Com fluxos visuais intuitivos, você conecta modelos de imagem, vídeo e texto — como DALL-E, Flux 2, Sora, Wan 2.6 e os exclusivos **Nano Banana** — para automatizar campanhas completas sem escrever uma linha de código. De imagens de produto a vídeos para redes sociais, tudo em um único pipeline.
+
+Este repositório contém Claude Code skills que replicam os fluxos internos da Brotu, incluindo o sistema de otimização de prompts usado em produção.
+
+---
 
 ## Skills disponíveis
 
@@ -14,33 +35,34 @@ Otimiza prompts brutos para modelos de geração de imagem e vídeo usando o sis
 - **Tier 2** — Detecção de estilo + sufixo de qualidade (thumbnail, photo, 3D, UGC, cinematic...)
 - **Tier 3** — Formatação específica por modelo (Flux 2, Midjourney, DALL-E, Sora, Veo, Wan, Runway, Stable Diffusion...)
 
-Suporta imagens de referência, preservação de identidade visual, e copy de marketing com tom configurável.
+Suporta imagens de referência, preservação de identidade visual e copy de marketing com tom configurável.
+
+#### ⭐ Modelos em destaque: Nano Banana
+
+| Modelo              | Créditos      | Resolução    | Melhor para                                            |
+| ------------------- | ------------- | ------------ | ------------------------------------------------------ |
+| **Nano Banana**     | 3 / imagem    | 1K           | Geração rápida, volume alto, iterações                 |
+| **Nano Banana 2**   | 8–18 / imagem | 1K · 2K · 4K | Qualidade escalável, suporta imagem de referência      |
+| **Nano Banana Pro** | 25 / imagem   | 1K           | Máxima qualidade, resultados finais e entregas premium |
+
+Os modelos Nano Banana são os modelos proprietários da Brotu — otimizados para prompts em português, resultados consistentes em campanhas e integração nativa com os pipelines da plataforma.
+
+---
 
 ## Como usar
 
 Adicione as skills ao seu projeto Claude Code:
 
 ```bash
-# Copie a pasta skills/ para seu projeto
 cp -r skills/ /seu-projeto/.claude/skills/
 ```
 
-Ou referencie diretamente em seu `CLAUDE.md`:
+Ou referencie em seu `CLAUDE.md`:
 
 ```markdown
 ## Skills
+
 - optimize-prompt: [caminho]/skills/optimize-prompt.md
 ```
 
 Então invoque com `/optimize-prompt` no Claude Code.
-
----
-
-<div align="center">
-
-[![Instagram](https://img.shields.io/badge/@brotu.app-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/brotu.app/)
-[![TikTok](https://img.shields.io/badge/@brotu.app-000000?style=flat&logo=tiktok&logoColor=white)](https://www.tiktok.com/@brotu.app)
-[![X](https://img.shields.io/badge/@brotuApp-000000?style=flat&logo=x&logoColor=white)](https://x.com/brotuApp)
-[![LinkedIn](https://img.shields.io/badge/brotuapp-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/brotuapp)
-
-</div>
