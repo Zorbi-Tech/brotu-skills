@@ -166,7 +166,38 @@ If reference images were provided:
 
 ## Step 4 — Output format
 
-Present the result clearly:
+If the user requested **JSON output** (e.g. "retorna em JSON", "output as JSON", "formato JSON"), return the full context as a JSON object:
+
+```json
+{
+  "model": "[target model]",
+  "output_type": "[image | video | copy]",
+  "style": "[detected style]",
+  "reference_images": [N used | 0],
+  "raw_prompt": "[user's original input]",
+  "optimized_prompt": "[the optimized prompt]",
+  "tip": "[one specific tip for this model/style]"
+}
+```
+
+For multiple variants (when no model was specified), return an array:
+
+```json
+[
+  {
+    "model": "flux-2",
+    "output_type": "image",
+    "style": "[style]",
+    "reference_images": 0,
+    "raw_prompt": "[original]",
+    "optimized_prompt": "[flux-2 optimized prompt]",
+    "tip": "[flux-2 tip]"
+  },
+  { ... }
+]
+```
+
+Otherwise, present the result in the default format:
 
 ```
 ## Prompt otimizado — [Model Name]
