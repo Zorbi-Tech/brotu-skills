@@ -24,7 +24,7 @@ Este repositório contém Claude Code skills que replicam os fluxos internos da 
 
 ## Skills disponíveis
 
-### `optimize-prompt`
+### `brotu-optimize`
 
 Otimiza prompts brutos para modelos de geração de imagem e vídeo usando o sistema de três camadas do Brotu:
 
@@ -49,7 +49,7 @@ Ou referencie em seu `CLAUDE.md`:
 ```markdown
 ## Skills
 
-- optimize-prompt: [caminho]/skills/optimize-prompt.md
+- brotu-optimize: [caminho]/skills/brotu-optimize.md
 ```
 
-Então invoque com `/optimize-prompt` no Claude Code.
+Então invoque com `/brotu-optimize` no Claude Code.
